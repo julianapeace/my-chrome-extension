@@ -1,0 +1,13 @@
+{
+ "manifest_version": 2,
+ "name": "ScriptKitty",
+ "description": "Scriptkitty description",
+ "version": "1",
+ "author": "ScriptKitty",
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Have a good day",
+   "default_popup": "popup.html"
+ },
+ "permissions": ["activeTab"]
+}
